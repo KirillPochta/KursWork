@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfApp1.Views.AddNewAdvertWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.Views" xmlns:ViewModels="clr-namespace:ViewModels" xmlns:ViewModels1="clr-namespace:WpfApp1.ViewModels"
+        mc:Ignorable="d"
+        Title="AddNewAdvertWindow" Height="340" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterOwner">
+    <Window.DataContext>
+        <ViewModels1:AdminMainWindowVM/>
+    </Window.DataContext>
+
+    <Grid Margin="0,0,3.6,0.4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Содержимое" HorizontalAlignment="Left" Margin="21,88,0,0" VerticalAlignment="Top" Height="24" Width="80"/>
+        <Label Content="Название новости" HorizontalAlignment="Left" Height="26" Margin="21,11,0,0" VerticalAlignment="Top" Width="117"/>
+        <Label Content="Автор" HorizontalAlignment="Left" Margin="165,13,0,0" VerticalAlignment="Top" Height="24" Width="41"/>
+        <TextBox  HorizontalAlignment="Left" Height="31" Margin="21,42,0,0" TextWrapping="Wrap" Text="{Binding NameOfadvertFromAddWindow}" VerticalAlignment="Top" Width="117"/>
+        <TextBox HorizontalAlignment="Left" Height="85" Margin="21,117,0,0" TextWrapping="Wrap" Text="{Binding ContentOfadvertFromAddWindow}" VerticalAlignment="Top" Width="259"/>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="163,42,0,0" TextWrapping="Wrap" Text="{Binding AuthorOfadvertFromAddWindow}" VerticalAlignment="Top" Width="117"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="22,241,0,0" VerticalAlignment="Top" Width="96" Command="{Binding AddNewAdvertFromWindow}"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="165,241,0,0" VerticalAlignment="Top" Width="96" Command="{Binding BackFromAddWindow}"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WpfApp1.Repository.SQLAdvertsRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAICAACAQIAAAAAAAAAAAAAEAAEAAAAAAAIAAAAA=</HashCode>
+      <FileName>Repository\SQLAdvertsRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp1.Repository.SQLProductsRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAICAACAQIAAAAAAAAAAAAAEAAEAAAAAAAIAAAAA=</HashCode>
+      <FileName>Repository\SQLProductsRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp1.Repository.SQLPurchaseHistoryRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAICAACAQIAAAAAAAAAAAAAEAAEAAAAAAAIAAAAA=</HashCode>
+      <FileName>Repository\SQLPurchaseHistoryRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp1.Repository.SQLUsersRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAICAACAQIAAAAAAAAAAAAAEAAEAAAAAAAIAAAAA=</HashCode>
+      <FileName>Repository\SQLUsersRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp1.Repository.UnitOfWork" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAYAAACAQAABBAAAAAAIAAAAKAAAABAAAAAAAEAA=</HashCode>
+      <FileName>Repository\UnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp1.UserPurchasesHistoryWindowVm" Collapsed="true">
+    <Position X="14.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEIAAAABAAIAAggAAAABCAAAAAgAAAIAABAACARAI=</HashCode>
+      <FileName>ViewModels\UserPurchasesHistoryWindowVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.ViewModels.UserProductsWindowVm" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABECIAAgAAgAAACAEAAAAAIAIAAAAABgAAA=</HashCode>
+      <FileName>ViewModels\UserProductsWindowVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModels.UserMainWindowVM" Collapsed="true">
+    <Position X="12.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAABAAIAAAAAAJAACAEAAAAAAAKAAAAAQAQQA=</HashCode>
+      <FileName>ViewModels\UserMainWindowVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.ViewModels.UserCabinetVm" Collapsed="true">
+    <Position X="12.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAASAAAAAAAQAAACAAAASEAAAAAAAAIIAQAAAAAAA=</HashCode>
+      <FileName>ViewModels\UserCabinetVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.ViewModels.RegWindowVm" Collapsed="true">
+    <Position X="14.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAAAgAAAQAQAAAAACAgACEAACAAAAQACAAgAAAAAA=</HashCode>
+      <FileName>ViewModels\RegWindowVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.LoginsAndPasswordsVm" Collapsed="true">
+    <Position X="12.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAABAAACABAIEAAAAIAAAEAAAAAA=</HashCode>
+      <FileName>ViewModels\LoginsAndPasswordsVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.AuthVM" Collapsed="true">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAACAKAQAAAAAAA=</HashCode>
+      <FileName>ViewModels\AuthVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.ViewModels.AdminPurchaseHistoryVm" Collapsed="true">
+    <Position X="14.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAggKBAAACAAAAAAAAAIEAAAAAABAI=</HashCode>
+      <FileName>ViewModels\AdminPurchaseHistoryVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.ViewModels.AdminProductsWindowVM" Collapsed="true">
+    <Position X="14.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAAkAAAJEABAAgAAhAAQGAMRAAAAAAIIAMAABgAQA=</HashCode>
+      <FileName>ViewModels\AdminProductsWindowVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.ViewModels.AdminMainWindowVM" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCgAAAEEABAABAAgAABJAACIIQgAAgAAKAAAAAQAAAk=</HashCode>
+      <FileName>ViewModels\AdminMainWindowVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.AdminCabinetVm" Collapsed="true">
+    <Position X="12.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQCAQAAAAAAAAAAACAAQESEAAAAAAAAIIAQAAAAAAA=</HashCode>
+      <FileName>ViewModels\AdminCabinetVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.UserContext" Collapsed="true">
+    <Position X="7.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAACAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\UserContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.User" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABAQAAAAAABQEAAAEgAAAAIABIgAAEAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp1.Models.PurchaseHistory" Collapsed="true">
+    <Position X="9" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAHAAAAAiAAAAAAAAAAADQAAAAABAGAACCAAASAQAA=</HashCode>
+      <FileName>Models\PurchaseHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.Models.Products" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAEACAAAAASAAAAABQAAAAAAAAAAACgAEAAAAA=</HashCode>
+      <FileName>Models\Products.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.Models.Advert" Collapsed="true">
+    <Position X="3.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAgAAAEAAgAAAAIBAAAAAAEAAIAAAAABAAAA=</HashCode>
+      <FileName>Models\Advert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.ViewModels.ViewController" Collapsed="true">
+    <Position X="9" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIBABAAAAIAABAAAAAAAA=</HashCode>
+      <FileName>Else\ViewController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.Else.StringToIntValidationRule" Collapsed="true">
+    <Position X="10.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Else\StringToIntValidationRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.RelayCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAEACAAQQAEAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Else\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp1.OnPropertyChangedClass" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAIAAAAAAAgAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Else\OnPropertyChangedClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WpfApp1.LoginNamespace.Logins" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Else\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.DelegateCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAEAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Else\DelegateCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WpfApp1.ContextHolder" Collapsed="true">
+    <Position X="10.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgQAAAAAABAAAEAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Else\ContextHolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.CommandsCollection" Collapsed="true">
+    <Position X="9" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Else\ContextHolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.CommandBinding" Collapsed="true">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAABBAAAACA=</HashCode>
+      <FileName>Else\ContextHolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="WpfApp1.Repository.IRepository&lt;T&gt;" Collapsed="true">
+    <Position X="3.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAICAAAAAIAAAAAAAAAAAAAEAAEAAAAAAAIAAAAA=</HashCode>
+      <FileName>Repository\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="WpfApp1.ExecuteCommand" Collapsed="true">
+    <Position X="5.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Else\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="WpfApp1.CanExecuteCommand" Collapsed="true">
+    <Position X="3.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Else\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
